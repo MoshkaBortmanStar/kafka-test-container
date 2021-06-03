@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    consumer:
+      auto-offset-reset: earliest
+      group-id: baeldung
+  main:
+    allow-bean-definition-overriding: true
+test:
+  topic: embedded-test-topic
+
+tpd:
+  topic-name: advice-topic
+  messages-per-request: 10
